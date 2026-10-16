@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Adel Fouad Gebaly | Deputy Public Prosecutor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: { 900: '#070D1F', 800: '#0F172A', 700: '#1E293B', 600: '#334155' },
+                        gold: { 500: '#D4AF37', 400: '#F1C40F', 300: '#F39C12', 100: '#FEF9E7' }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        arabic: ['Amiri', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF 0%, #D4AF37 50%, #996515 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; color: black !important; }
+            .glass-card { border: none !important; background: transparent !important; }
+        }
+    </style>
+</head>
+<body class="bg-navy-900 text-slate-200 font-sans selection:bg-gold-500 selection:text-navy-900">
+
+    <!-- Header / Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-card border-b border-white/10 no-print">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="font-serif text-xl font-bold text-white tracking-wider flex items-center gap-3">
+                <i data-lucide="scale" class="text-gold-500 w-6 h-6"></i>
+                <span>M. A. F. GEBALY</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
+                <a href="#profile" class="hover:text-gold-500 transition-colors">Profile</a>
+                <a href="#experience" class="hover:text-gold-500 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-gold-500 transition-colors">Education</a>
+                <a href="#contact" class="hover:text-gold-500 transition-colors">Contact</a>
+            </div>
+            <button onclick="window.print()" class="flex items-center gap-2 bg-gold-500/10 hover:bg-gold-500/20 text-gold-500 border border-gold-500/30 px-4 py-2 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all">
+                <i data-lucide="printer" class="w-4 h-4"></i> Save PDF
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-36 pb-20 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="flex flex-col md:flex-row gap-10 items-center justify-between">
+            <div class="space-y-6 max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-500 text-xs font-semibold tracking-widest uppercase">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> Judicial Officer & Legal Practitioner
+                </div>
+                <h1 class="text-4xl md:text-6xl font-serif font-bold text-white leading-tight">
+                    Mohamed Adel Fouad Gebaly
+                </h1>
+                <p class="text-xl md:text-2xl gold-gradient-text font-serif italic">
+                    Deputy Public Prosecutor
+                </p>
+                <div class="flex flex-wrap gap-6 text-sm text-slate-400">
+                    <span class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-gold-500"></i> Cairo, Egypt</span>
+                    <a href="mailto:mohamedadelfouad27@gmail.com" class="flex items-center gap-2 hover:text-gold-500 transition-colors"><i data-lucide="mail" class="w-4 h-4 text-gold-500"></i> mohamedadelfouad27@gmail.com</a>
+                    <span class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4 text-gold-500"></i> 0120755486</span>
+                </div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl w-full md:w-80 border-gold-500/20 space-y-4">
+                <h3 class="text-xs uppercase tracking-widest text-gold-500 font-bold">Quick Overview</h3>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-center justify-between text-slate-300">
+                        <span>Jurisdiction</span> <span class="text-white font-medium">Public Prosecution</span>
+                    </li>
+                    <li class="flex items-center justify-between text-slate-300">
+                        <span>Academic Level</span> <span class="text-white font-medium">PhD Prep (3.5/4.0)</span>
+                    </li>
+                    <li class="flex items-center justify-between text-slate-300">
+                        <span>Corporate Law</span> <span class="text-white font-medium">GAFI / IDA / IP</span>
+                    </li>
+                </ul>
+                <a href="https://linkedin.com/in/mohamed-adel-fuoad-21508a2a2" target="_blank" class="w-full mt-4 flex items-center justify-center gap-2 bg-gold-500 text-navy-900 font-bold py-2.5 rounded-xl hover:bg-gold-400 transition-colors text-sm">
+                    <i data-lucide="linkedin" class="w-4 h-4"></i> View LinkedIn Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio / Profile Section -->
+    <section id="profile" class="py-16 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+            <div class="md:col-span-4 space-y-2">
+                <h2 class="text-2xl font-serif font-bold text-white flex items-center gap-3">
+                    <i data-lucide="user" class="text-gold-500"></i> Executive Profile
+                </h2>
+                <p class="text-xs text-slate-400 uppercase tracking-wider">Professional Bio & Philosophy</p>
+            </div>
+            <div class="md:col-span-8 glass-card p-8 rounded-2xl space-y-6">
+                <p class="text-slate-300 leading-relaxed text-base">
+                    A dedicated Public Prosecutor Deputy and former Corporate & Litigation Lawyer with a proven track record in establishing legal entities, representing corporate interests, and managing administrative regulatory compliance.
+                </p>
+                <p class="text-slate-300 leading-relaxed text-base">
+                    Combining extensive practical experience in corporate law and dispute resolution with a deep professional focus on criminal law and statutory interpretation, I bring a sharp analytical mindset and rigorous objective judgment to judicial investigations and criminal proceedings. I strive to leverage my bilingual proficiency, legal acumen, and investigative skills to ensure the fair administration of justice, uphold criminal procedures, and safeguard the rule of law.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="py-16 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <h2 class="text-2xl font-serif font-bold text-white mb-8 flex items-center gap-3">
+            <i data-lucide="briefcase" class="text-gold-500"></i> Professional Experience
+        </h2>
+        
+        <div class="space-y-8">
+            <!-- Role 1 -->
+            <div class="glass-card p-8 rounded-2xl border-l-4 border-l-gold-500 space-y-4">
+                <div class="flex flex-col md:flex-row justify-between md:items-center gap-2">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Public Prosecutor Deputy</h3>
+                        <p class="text-gold-500 text-sm">Public Prosecution</p>
+                    </div>
+                    <span class="text-xs font-semibold px-3 py-1 bg-white/5 rounded-full text-slate-300 border border-white/10 w-fit">01/10 – Present</span>
+                </div>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-300 pt-2">
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Conducting criminal investigations and suspect interrogations.</li>
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Issuing search warrants, arrest orders, and pretrial detentions.</li>
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Crime scene inspections alongside forensic & technical experts.</li>
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Reviewing case files for trial referrals or archiving decisions.</li>
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Inspecting correctional facilities and police lockups.</li>
+                    <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i> Pleading before criminal court sessions on behalf of public interest.</li>
+                </ul>
+            </div>
+
+            <!-- Role 2 -->
+            <div class="glass-card p-8 rounded-2xl space-y-4">
+                <div class="flex flex-col md:flex-row justify-between md:items-center gap-2">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Corporate Lawyer</h3>
+                        <p class="text-gold-500 text-sm">3 Brothers Group</p>
+                    </div>
+                    <span class="text-xs font-semibold px-3 py-1 bg-white/5 rounded-full text-slate-300 border border-white/10 w-fit">07/2025 – 04/2026</span>
+                </div>
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    Managed full company incorporation setups with GAFI, industrial licenses via IDA, intellectual property registrations, and commercial dispute arbitration.
+                </p>
+            </div>
+
+            <!-- Role 3 & 4 Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="glass-card p-6 rounded-2xl space-y-3">
+                    <span class="text-xs text-gold-500 font-semibold">09/2024 – 07/2025</span>
+                    <h4 class="text-lg font-bold text-white">Junior Corporate Lawyer</h4>
+                    <p class="text-xs text-slate-400">Legal & Financial Consultants</p>
+                    <p class="text-xs text-slate-300">Handled corporate setups, GAFI approvals, board resolution drafting, and tax/commercial registry coordination.</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl space-y-3">
+                    <span class="text-xs text-gold-500 font-semibold">09/2023 – 09/2024</span>
+                    <h4 class="text-lg font-bold text-white">Junior Litigation Lawyer</h4>
+                    <p class="text-xs text-slate-400">Law Office</p>
+                    <p class="text-xs text-slate-300">Drafted pleadings, appeals, and legal memorandums. Represented clients across judicial hearing levels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Education -->
+    <section id="education" class="py-16 px-6 max-w-7xl mx-auto border-b border-white/10">
+        <h2 class="text-2xl font-serif font-bold text-white mb-8 flex items-center gap-3">
+            <i data-lucide="graduation-cap" class="text-gold-500"></i> Academic Qualifications
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="glass-card p-6 rounded-2xl border-t-2 border-t-gold-500 space-y-2">
+                <span class="text-xs text-gold-500 font-bold">11/2023 – 06/2026</span>
+                <h3 class="text-lg font-bold text-white">PhD Preparatory Program in Law</h3>
+                <p class="text-xs text-slate-400">Beni-Suef University</p>
+                <div class="pt-2 text-xs text-gold-400 font-semibold">Grade: 3.5 / 4.0 (Very Good)</div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl border-t-2 border-t-gold-500 space-y-2">
+                <span class="text-xs text-gold-500 font-bold">11/2023 – 05/2024</span>
+                <h3 class="text-lg font-bold text-white">Master of Public Law</h3>
+                <p class="text-xs text-slate-400">Beni-Suef University</p>
+                <div class="pt-2 text-xs text-slate-300">Grade: Good</div>
+            </div>
+            <div class="glass-card p-6 rounded-2xl border-t-2 border-t-gold-500 space-y-2">
+                <span class="text-xs text-gold-500 font-bold">2017 – 2021</span>
+                <h3 class="text-lg font-bold text-white">Bachelor of Law (English)</h3>
+                <p class="text-xs text-slate-400">Beni-Suef University</p>
+                <div class="pt-2 text-xs text-gold-400 font-semibold">Very Good with Honors</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-12 px-6 max-w-7xl mx-auto text-center space-y-4 text-xs text-slate-500 no-print">
+        <p>© 2026 Mohamed Adel Fouad Gebaly. All rights reserved.</p>
+        <p class="text-slate-400">Cairo, Egypt | mohamedadelfouad27@gmail.com</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
